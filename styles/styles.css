@@ -7,6 +7,9 @@
     "wdth" 100;
 }
 /* sayred style */
+.secondary-bg{
+  background-color: #FFF8F3;
+}
 .text-primary{
   color: #FD6E0A;
 }
@@ -28,6 +31,19 @@
   border-radius: 5px;
 
 }
+.section-title{
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+
+}
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
+
+
+/* header style */
 .header{
   background-image: url('../images/developer.png'), url('../images/header_bg.png');
   background-repeat: no-repeat; 
@@ -76,4 +92,31 @@ nav li a{
 .banner-pro-pic{
   max-width: 584px;
  max-height: 676px;
+}
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about styles */
+.about{
+  padding: 131px 157px;
+  text-align: center;
+  margin-top: 130px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 22.5px 0 22.5px;
+}
+.about-title{
+  color: #757575;
+  font-size: 20px;
+
+}
+.about-description{
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
 }
